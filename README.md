@@ -1,6 +1,8 @@
 ## Understanding the Molecular Interface of Cardiovascular Disease and COVID-19: A Data Science Approach
 
+### Introduction: 
 
+In this study, we create a text mining pipeline to better understand associations of CVDs with COVID-19. First, we identify a data corpora of biomedical publications containing COVID-19 symptoms as defined by CDC. Using 333 human COVID-19-interacting proteins as entities and 8 CVDs classified by MeSH as categories, we examine and compute their Context Aware Semantic Analytic Processing (CaseOLAP) scores. Among the COVID-19 subproteome, we identify a subset of proteins with no missing values, and implement machine learning methods to explore the molecular interface of the COVID-19 subproteome and CVDs. 
 
 Following are the data sources included in the project:
 
@@ -17,7 +19,7 @@ International Classification of Disease (ICD) codes [https://icd.who.int/en] are
 Medical Subject Headings (MeSH) (https://meshb.nlm.nih.gov/search) are hierarchically-organized codes created by the National Library of Medicine,  standards for referring to medical entities in categories such as "Diseases". There are 24 cardiovascular disease categories with over 600 total MeSH descriptors. In one of our computations, we implemented the MeSH based document collection for eight CVDs to construct the Text-Cube. 
 		
 
-# UMLS: 
+## UMLS: 
 Unified Medical Language (UMLS) provides an interface for standardizing the medical terminology (e.g., disease signs and symptoms, drugs) which is integrated with diverse widely used terminologies (e.g., MeSH, ICD codes, RxNorm, SnomedCT). We used UMLS for concept normalization through name, synonyms, abbreviations of the biomedical concepts in signs and symptoms, and comorbidities.
 
 
