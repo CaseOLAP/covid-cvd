@@ -20,15 +20,15 @@ Medical Subject Headings (MeSH) (https://meshb.nlm.nih.gov/search) are hierarchi
 		
 
 ## UMLS: 
-Unified Medical Language (UMLS) provides an interface for standardizing the medical terminology (e.g., disease signs and symptoms, drugs) which is integrated with diverse widely used terminologies (e.g., MeSH, ICD codes, RxNorm, SnomedCT). We used UMLS for concept normalization through name, synonyms, abbreviations of the biomedical concepts in signs and symptoms, and comorbidities.
+Unified Medical Language (UMLS) (https://www.nlm.nih.gov/research/umls/index.html) provides an interface for standardizing the medical terminology (e.g., disease signs and symptoms, drugs) which is integrated with diverse widely used terminologies (e.g., MeSH, ICD codes, RxNorm, SnomedCT). We used UMLS for concept normalization through name, synonyms, abbreviations of the biomedical concepts in signs and symptoms, and comorbidities.
 
 
 ### UniProt Data:
-UniProt terms populated the list of 333 Covid-19 related proteins. Proteins were determined to be Covid-19 relevant based on literature/other documents. A UniProt API obtained the proteins’ UniProt IDs, names, synonyms, and abbreviations. The CaseOLAP score for entity-category association was calculated using the proteins (entities) and the 8 cardiovascular diseases (categories). Those scores were 8 dimensional vectors with each element identifying one CD category.  Starting with the score of Covid-19 proteins we build up the score of highlighted pathways those proteins are involved in.  These scoring also facilitated the knowledge graph construction. 
+UniProt terms populated the list of 333 Covid-19 related proteins. Proteins were determined to be Covid-19 relevant based on literature/other documents. A UniProt API (https://www.uniprot.org/) obtained the proteins’ UniProt IDs, names, synonyms, and abbreviations. The CaseOLAP score for entity-category association was calculated using the proteins (entities) and the 8 cardiovascular diseases (categories). Those scores were 8 dimensional vectors with each element identifying one CD category.  Starting with the score of Covid-19 proteins we build up the score of highlighted pathways those proteins are involved in.  These scoring also facilitated the knowledge graph construction. 
 
  
 ### Reactome Data: 
-We conducted the Pathways search for two sets of proteins through Reactome web application in the browser. Starting with two sets of proteins, we prepared the two sets of associated pathways lists. With a unique ID of each pathway, we isolated the pathways for construction of the knowledge graph. The intersection of Covid-19 proteins and CVD drug target proteins provided a very insightful subgraph in the knowledge graph with highlighted molecular mechanisms associated with CVD and Covid-19.
+We conducted the Pathways search for two sets of proteins through Reactome web application (https://reactome.org/) in the browser. Starting with two sets of proteins, we prepared the two sets of associated pathways lists. With a unique ID of each pathway, we isolated the pathways for construction of the knowledge graph. The intersection of Covid-19 proteins and CVD drug target proteins provided a very insightful subgraph in the knowledge graph with highlighted molecular mechanisms associated with CVD and Covid-19.
 
 
 
