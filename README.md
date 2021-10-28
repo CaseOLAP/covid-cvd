@@ -10,7 +10,7 @@ Following are the data sources included in the project:
 The United States’ National Library of Medicine maintains PubMed, a search engine indexing over 33,000,000 biomedical publications (https://pubmed.ncbi.nlm.nih.gov). Of those publications, we extracted 1,075,200 relevant to cardiovascular disease and  80,732 relevant to Covid-19.  These publications are tagged with medical subject heading (MeSH) descriptors as well as the body text of abstract mention relevant biomedical entities (determined to be relevant via integration with data from the CDC, MeSH, and ICD), as well as biomedical entities (e.g., proteins, drugs, pathways). 
  
 ### CDC Data:
-The Center for Disease Control (CDC) website was our source for Covid-19 signs and symptoms as well as Covid-19 comorbidities. These signs and symptoms were searched over indexing of  PubMed data and analyzed for interaction within symptoms and across symptoms and comorbidities.
+The Center for Disease Control (CDC) website (https://www.cdc.gov/) was our source for Covid-19 signs and symptoms as well as Covid-19 comorbidities. These signs and symptoms were searched over indexing of  PubMed data and analyzed for interaction within symptoms and across symptoms and comorbidities.
 
 ### ICD Codes: 
 International Classification of Disease (ICD) codes [https://icd.who.int/en] are globally-used standards created by the World Health Organization for recording symptoms, diseases, and injuries. For cardiovascular diseases, there are over 1,800 codes. These codes for disease signs and symptoms as well as comorbidities were obtained through UMLS API. 
